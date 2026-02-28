@@ -26,7 +26,7 @@ import projectImage1 from "./assets/projects/purbaya.png";
 import projectImage2 from "./assets/projects/mbg.png";
 import projectImage3 from "./assets/projects/halodoc.png";
 import projectImage4 from "./assets/projects/robot.png";
-import projectImage6 from "./assets/projects/project6.jpg";
+import projectImage6 from "./assets/projects/cisco.png";
 
 // Logos
 export const logos = {
@@ -145,14 +145,13 @@ export const projectDetails = [
     type: "report"
   },
   {
-    title: "Project title 6",
+    title: "Simulasi Jaringan Virtualisasi untuk Layanan Telematika Perancangan dan Implementasi Virtual Network....",
     image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    description: `This project implements a star topology and virtualization using Cisco Packet Tracer to overcome the limitations of the previous bus network in the Radio Building, successfully enhancing reliability and security through VLAN segmentation and Inter-VLAN routing.`,
+    techstack: "Cisco Packet Tracer",
+    previewLink: "https://docs.google.com/document/d/1z2Zkm-irmFkwuSRyyXZsxKv2Il5CeVLOWOK_LGTaxO8/edit?usp=sharing",
     githubLink: "https://github.com",
-    type: "web"
+    type: "report"
   },
 ];
 
