@@ -1,54 +1,48 @@
 // Enter all your detials in this file
-// Logo images
-import logogradient from "./assets/logo.svg";
-import logo from "./assets/logo2.svg";
+
 // Profile Image
 import profile from "./assets/fotoprofile.jpg";
+
 // Tech stack images
-import html from "./assets/techstack/html.png";
-import css from "./assets/techstack/css.png";
 import js from "./assets/techstack/js.png";
-import react from "./assets/techstack/react.png";
-import redux from "./assets/techstack/redux.png";
+import csharp from "./assets/techstack/csharp.png";
 import tailwind from "./assets/techstack/tailwind.png";
 import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import laravel from "./assets/techstack/laravel.png"
-import postman from "./assets/techstack/postman.png";
+import vs from "./assets/techstack/vs.png"
+import lua from "./assets/techstack/lua.png";
 import express from "./assets/techstack/express.png";
 import figma from "./assets/techstack/figma.png";
 import python from "./assets/techstack/python.png";
 import java from "./assets/techstack/java.png";
-// Porject Image
-import projectImage1 from "./assets/projects/purbaya.png";
-import projectImageunpad from "./assets/projects/unpad.png";
-import projectImage2 from "./assets/projects/mbg.png";
-import projectImage3 from "./assets/projects/halodoc.png";
-import projectImage4 from "./assets/projects/robot.png";
-import projectImage6 from "./assets/projects/cisco.png";
+import opengl from "./assets/techstack/opengl.png";
+import cpp from "./assets/techstack/cpp.png";
+import docker from "./assets/techstack/docker.png";
+import react from "./assets/techstack/react.png";
 
-// Logos
-export const logos = {
-  logogradient: logogradient,
-  logo: logo,
-};
+// Porject Image
+import Soeharto from "./assets/projects/Soeharto.png";
+import projectImageunpad from "./assets/projects/unpad.png";
+import RobotSoccer from "./assets/projects/Robot.jpeg";
+import Iot from "./assets/projects/Iot.png";
+
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Hamud Abdul Aziz",
-  tagline: "In this world of fiction, I will bestow",
+  name: "Bagas Diatama Wardoyo",
+  tagline: "\"Bersama paria kita berjalan\"",
   img: profile,
-  about: `I am an undergraduate Computer Science student at Universitas Padjadjaran with strong interests in data, artificial intelligence, back-end development, and computer networks. I enjoy building and analyzing systems that solve real-world problems, whether through intelligent models, scalable backend architecture, or end-to-end application development. Driven by curiosity and continuous learning, I thrive in collaborative environments where I can contribute practical solutions, explore emerging technologies, and grow alongside others.`,
+  about: "I'm Bagas Diatama. Currently pursuing my degree at Universitas Padjadjaran, I am a developer focused on AI, computer graphics, and network infrastructure. I thrive on the synergy of team-based projects and enjoy contributing innovative solutions to complex, real-world problems. I’m a collaborative learner who believes that we achieve the most when we grow and share our technical insights together.",
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/in/hamud-abdul-aziz",
-  github: "https://www.github.com/abdazizhamud",
-  twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/abdazizhamud",
+  linkdein: "https://www.linkedin.com/in/bagas-wardoyo-a79359354/",
+  github: "https://github.com/PlasticTr3e",
+  instagram: "https://www.instagram.com/diatamabagas/",
 };
 
 // Enter your Work Experience here
@@ -61,11 +55,11 @@ export const workDetails = [
     Duration: "Feb 2025 - Dec 2025",
   },
   {
-    Position: "Backend Lead & Co–Vice Consultant Team",
-    Company: `Research Analysis and Technology Bureau, BEM Kema FMIPA Unpad`,
+    Position: "Chairman of the Student Representative Council",
+    Company: `DPA HIMATIF FMIPA Unpad`,
     Location: "Jatinangor",
     Type: "Organization",
-    Duration: "May 2025 - Jan 2026",
+    Duration: "Dec 2024 - Dec 2025",
   },
   {
     Position: "Educational Simulation Developer (Intern)",
@@ -89,22 +83,24 @@ export const eduDetails = [
 
 // Tech Stack and Tools
 export const techStackDetails = {
-  html: html,
-  css: css,
-  js: js,
-  laravel:laravel,
-  react: react,
-  redux: redux,
-  tailwind: tailwind,
-  vscode: vscode,
-  java:java,
-  express:express,
+  csharp: csharp,
+  opengl: opengl,
+  cpp: cpp,
   python:python,
-  postman: postman,
-  npm: npm,
+  java:java,
+  lua: lua,
+  js: js,
+  vscode: vscode,
+  vs: vs,
+  express:express,
+  laravel:laravel,
+  docker:docker,
   git: git,
   github: github,
   figma: figma,
+  tailwind: tailwind,
+  react: react,
+  npm: npm,
 };
 
 // Enter your Project Details here
@@ -112,61 +108,43 @@ export const projectDetails = [
   {
     title: "Educational Simulation Roblox Developer, PIPP Unpad",
     image: projectImageunpad,
-    description: `Contributed to the development of a full-scale 3D campus simulation environment representing Universitas Padjadjaran for educational and visualization purposes.`,
+    description: `Developed core game mechanics and interactivity using Lua, implementing complex scripts for educational simulations within a 3D campus environment.`,
     techstack: "Roblox Studio, Blender, Lua",
-    previewLink: "#",
-    githubLink: "#",
-    type: "web"
+    previewLink: "https://www.roblox.com/share?code=ab2b40436e5c7e4cb434e772a46c5dcb&type=ExperienceDetails&stamp=1772304214544",
+    githubLink: "",
+    type: "game"
   },
   {
-    title: "Sentiment Analysis of the Rupiah Redenomination Policy by the Minister of Finance Purbaya",
-    image: projectImage1,
-    description: `Analyzed 1,449 public YouTube comments to assess sentiment toward Indonesia’s rupiah redenomination policy\nDemonstrated the use of NLP for public opinion monitoring and policy communication evaluation.`,
-    techstack: "Python, Pandas, Numpy, Scikit-Learn",
-    previewLink: "https://www.linkedin.com/in/hamud-abdul-aziz/details/projects/1114447006/multiple-media-viewer/?profileId=ACoAAEI-_GoB3ypXCZMHxvemZ_uG_406-ucJnNI&treasuryMediaId=1770640973093",
-    githubLink: "https://github.com",
-    type: "report"
+    title: "Soeharto National Hero Sentiment Analysis",
+    image: Soeharto,
+    description: `Developed a sentiment analysis system to analyze public opinion on whether Soeharto (Indonesia's second president) should be designated as a National Hero (Pahlawan Nasional). Collected and analyzed YouTube comments to gauge public sentiment using dual-approach classification: manual lexicon-based labeling and AI-powered transformer models (IndoBERT) for comparison.`,
+    techstack: "Python, YouTube Data API, Transformers (HuggingFace), Sastrawi (Indonesian NLP), Pandas, Matplotlib, WordCloud",
+    previewLink: "https://github.com/PlasticTr3e/soeharto_pahlawan_sentiment_analysis",
+    githubLink: "https://https://github.com/PlasticTr3e/soeharto_pahlawan_sentiment_analysis.com",
+    type: "game"
   },
   {
-    title: "Prediksi Kapasitas Pasokan Hasil Laut Nasional untuk Mendukung Program Makan Bergizi Gratis",
-    image: projectImage2,
-    description: `Integrated and standardized provincial marine capture fisheries data (2017–2024) and conducted EDA to analyze production trends and regional disparities.\nApplied K-Means clustering (Silhouette Score validated) to classify provinces into surplus and deficit groups, identifying distribution and logistics gaps.`,
-    techstack: "Python, Pandas, Numpy, Scikit-Learn",
-    previewLink: "https://www.linkedin.com/in/hamud-abdul-aziz/details/projects/1770828119826/single-media-viewer/?profileId=ACoAAEI-_GoB3ypXCZMHxvemZ_uG_406-ucJnNI",
-    githubLink: "https://github.com",
-    type: "report"
+    title: "Smart Ball Follower Robot with Object Detection",
+    image: RobotSoccer,
+    description: `Developed an autonomous robot capable of detecting and following a soccer ball in real-time. Integrated advanced Computer Vision algorithms using the Ultralytics YOLOv8 library with custom-trained weights for high-accuracy ball detection and tracking. Features automatic distance-based stopping when the robot reaches the ball.`,
+    techstack: "Python, Arduino, YOLOv8, OpenCV, Serial Communication",
+    previewLink: "https://github.com/PlasticTr3e/Robot-Soccer",
+    githubLink: "https://github.com/PlasticTr3e/Robot-Soccer",
+    type: "game"
   },
   {
-    title: "Analisis Sentimen Ulasan Aplikasi Halodoc Menggunakan Model Convolutional Neural Network (CNN) dengan Metode Lexicon-Based Labeling",
-    image: projectImage3,
-    description: `Collected 10,000 Halodoc user reviews from Google Play Store (7,332 unique after deduplication) and performed Indonesian NLP preprocessing (cleaning, normalization, tokenization, stopword removal, stemming with Sastrawi).`,
-    techstack: "Python, Pandas, Numpy, Scikit-Learn",
-    previewLink: "https://www.linkedin.com/in/hamud-abdul-aziz/details/projects/1015323141/multiple-media-viewer/?profileId=ACoAAEI-_GoB3ypXCZMHxvemZ_uG_406-ucJnNI&treasuryMediaId=1753361980149",
-    githubLink: "https://github.com",
-    type: "report"
-  },
-  {
-    title: "Smart Follower Robot with Face Recognition",
-    image: projectImage4,
-    description: `Developed an autonomous robot capable of detecting and following a specific human face in real-time. Integrated advanced Computer Vision algorithms using the InsightFace library (ArcFace model) for high-accuracy face detection and recognition.`,
-    techstack: "Python, Arduino Uno, Insight Face",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com/mfachri820/RobotikaFaceRecognition",
-    type: "report"
-  },
-  {
-    title: "Simulasi Jaringan Virtualisasi untuk Layanan Telematika Perancangan dan Implementasi Virtual Network....",
-    image: projectImage6,
-    description: `This project implements a star topology and virtualization using Cisco Packet Tracer to overcome the limitations of the previous bus network in the Radio Building, successfully enhancing reliability and security through VLAN segmentation and Inter-VLAN routing.`,
+    title: "Smart Home IoT System with Blynk",
+    image: Iot,
+    description: `Developed an IoT-based smart home automation system capable of monitoring and controlling home appliances remotely in real-time. Integrated temperature and humidity monitoring using DHT22 sensor with automatic AC control when temperature exceeds 28°C. Features motion detection using PIR sensor for security alerts and remote LED control through the Blynk mobile application. The system provides real-time data visualization and notifications via the Blynk dashboard.`,
     techstack: "Cisco Packet Tracer",
-    previewLink: "https://docs.google.com/document/d/1z2Zkm-irmFkwuSRyyXZsxKv2Il5CeVLOWOK_LGTaxO8/edit?usp=sharing",
-    githubLink: "https://github.com",
-    type: "report"
+    previewLink: "https://github.com/PlasticTr3e/IOT_SmartHome",
+    githubLink: "https://github.com/PlasticTr3e/IOT_SmartHome",
+    type: "game"
   },
 ];
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "abdulazizhamud@gmail.com",
-  phone: "+62 897 8336 432",
+  email: "diatama.w8@gmail.com",
+  phone: "+62 8515 6385 243",
 };
