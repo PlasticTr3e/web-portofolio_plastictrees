@@ -21,7 +21,7 @@ import express from "./assets/techstack/express.png";
 import figma from "./assets/techstack/figma.png";
 import python from "./assets/techstack/python.png";
 import java from "./assets/techstack/java.png";
-// Porject Images
+// Porject Image
 import projectImage1 from "./assets/projects/purbaya.png";
 import projectImage2 from "./assets/projects/mbg.png";
 import projectImage3 from "./assets/projects/halodoc.png";
