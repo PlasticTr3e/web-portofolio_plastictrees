@@ -7,24 +7,25 @@ import profile from "./assets/fotoprofile.jpg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
-import sass from "./assets/techstack/sass.png";
 import js from "./assets/techstack/js.png";
 import react from "./assets/techstack/react.png";
 import redux from "./assets/techstack/redux.png";
 import tailwind from "./assets/techstack/tailwind.png";
-import bootstrap from "./assets/techstack/bootstrap.png";
 import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
+import laravel from "./assets/techstack/laravel.png"
 import postman from "./assets/techstack/postman.png";
+import express from "./assets/techstack/express.png";
 import figma from "./assets/techstack/figma.png";
+import python from "./assets/techstack/python.png";
+import java from "./assets/techstack/java.png";
 // Porject Images
 import projectImage1 from "./assets/projects/purbaya.png";
 import projectImage2 from "./assets/projects/mbg.png";
 import projectImage3 from "./assets/projects/halodoc.png";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
+import projectImage4 from "./assets/projects/robot.png";
 import projectImage6 from "./assets/projects/project6.jpg";
 
 // Logos
@@ -90,12 +91,14 @@ export const techStackDetails = {
   html: html,
   css: css,
   js: js,
+  laravel:laravel,
   react: react,
   redux: redux,
-  sass: sass,
   tailwind: tailwind,
-  bootstrap: bootstrap,
   vscode: vscode,
+  java:java,
+  express:express,
+  python:python,
   postman: postman,
   npm: npm,
   git: git,
@@ -133,23 +136,12 @@ export const projectDetails = [
     type: "report"
   },
   {
-    title: "Project title 4",
+    title: "Smart Follower Robot with Face Recognition",
     image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `Developed an autonomous robot capable of detecting and following a specific human face in real-time. Integrated advanced Computer Vision algorithms using the InsightFace library (ArcFace model) for high-accuracy face detection and recognition.`,
+    techstack: "Python, Arduino Uno, Insight Face",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
-    type: "web"
-  },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/mfachri820/RobotikaFaceRecognition",
     type: "report"
   },
   {
@@ -166,6 +158,6 @@ project lorem ipsum generator for dummy content`,
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "abdulaziz@gmail.com",
+  email: "abdulazizhamud@gmail.com",
   phone: "+62 897 8336 432",
 };
