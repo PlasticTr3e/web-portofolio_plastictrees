@@ -23,6 +23,7 @@ import python from "./assets/techstack/python.png";
 import java from "./assets/techstack/java.png";
 // Porject Image
 import projectImage1 from "./assets/projects/purbaya.png";
+import projectImageunpad from "./assets/projects/unpad.png";
 import projectImage2 from "./assets/projects/mbg.png";
 import projectImage3 from "./assets/projects/halodoc.png";
 import projectImage4 from "./assets/projects/robot.png";
@@ -108,6 +109,15 @@ export const techStackDetails = {
 
 // Enter your Project Details here
 export const projectDetails = [
+  {
+    title: "Educational Simulation Roblox Developer, PIPP Unpad",
+    image: projectImageunpad,
+    description: `Contributed to the development of a full-scale 3D campus simulation environment representing Universitas Padjadjaran for educational and visualization purposes.`,
+    techstack: "Roblox Studio, Blender, Lua",
+    previewLink: "#",
+    githubLink: "#",
+    type: "web"
+  },
   {
     title: "Sentiment Analysis of the Rupiah Redenomination Policy by the Minister of Finance Purbaya",
     image: projectImage1,
