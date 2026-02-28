@@ -61,8 +61,8 @@ export const workDetails = [
     Duration: "Feb 2025 - Dec 2025",
   },
   {
-    Position: "Research Analysis and Technology Bureau, BEM Kema FMIPA Unpad",
-    Company: `Company Name here`,
+    Position: "Backend Lead & Co–Vice Consultant Team",
+    Company: `Research Analysis and Technology Bureau, BEM Kema FMIPA Unpad`,
     Location: "Jatinangor",
     Type: "Organization",
     Duration: "May 2025 - Jan 2026",
