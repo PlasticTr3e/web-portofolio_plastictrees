@@ -3,7 +3,7 @@
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo2.svg";
 // Profile Image
-import profile from "./assets/profile.jpg";
+import profile from "./assets/fotoprofile.jpg";
 // Tech stack images
 import html from "./assets/techstack/html.png";
 import css from "./assets/techstack/css.png";
@@ -20,9 +20,9 @@ import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
+import projectImage1 from "./assets/projects/purbaya.png";
+import projectImage2 from "./assets/projects/mbg.png";
+import projectImage3 from "./assets/projects/halodoc.png";
 import projectImage4 from "./assets/projects/project4.jpg";
 import projectImage5 from "./assets/projects/project5.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
@@ -35,60 +35,53 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
+  name: "Hamud Abdul Aziz",
+  tagline: "In this world of fiction, I will bestow",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `I am an undergraduate Computer Science student at Universitas Padjadjaran with strong interests in data, artificial intelligence, back-end development, and computer networks. I enjoy building and analyzing systems that solve real-world problems, whether through intelligent models, scalable backend architecture, or end-to-end application development. Driven by curiosity and continuous learning, I thrive in collaborative environments where I can contribute practical solutions, explore emerging technologies, and grow alongside others.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
-  github: "https://www.github.com/",
+  linkdein: "https://www.linkedin.com/in/hamud-abdul-aziz",
+  github: "https://www.github.com/abdazizhamud",
   twitter: "https://twitter.com/",
-  instagram: "https://www.instagram.com/",
+  instagram: "https://www.instagram.com/abdazizhamud",
 };
 
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Position: "Laboratory Teaching Assistant",
+    Company: `Department of Computer Science Unpad`,
+    Location: "Jatinangor",
+    Type: "Part Time",
+    Duration: "Feb 2025 - Dec 2025",
   },
   {
-    Position: "Internship",
+    Position: "Research Analysis and Technology Bureau, BEM Kema FMIPA Unpad",
     Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Location: "Jatinangor",
+    Type: "Organization",
+    Duration: "May 2025 - Jan 2026",
   },
   {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "Educational Simulation Developer (Intern)",
+    Company: `Center for Innovation in Teaching and Learning (PIPP) Unpad`,
+    Location: "Jatinangor",
     Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Oct 2025 - Jan 2026",
   },
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
-    Type: "Full Time",
-    Duration: "Jan 2022 - Present",
-  },
-  {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Position: "Computer Science",
+    Company: "Universitas Padjadjaran",
+    Location: "Jatinangor, West Java",
+    Type: "College",
+    Duration: "August 2023 - Present",
   },
 ];
 
@@ -113,31 +106,31 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "Sentiment Analysis of the Rupiah Redenomination Policy by the Minister of Finance Purbaya",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    description: `Analyzed 1,449 public YouTube comments to assess sentiment toward Indonesia’s rupiah redenomination policy\nDemonstrated the use of NLP for public opinion monitoring and policy communication evaluation.`,
+    techstack: "Python, Pandas, Numpy, Scikit-Learn",
+    previewLink: "https://www.linkedin.com/in/hamud-abdul-aziz/details/projects/1114447006/multiple-media-viewer/?profileId=ACoAAEI-_GoB3ypXCZMHxvemZ_uG_406-ucJnNI&treasuryMediaId=1770640973093",
     githubLink: "https://github.com",
+    type: "report"
   },
   {
-    title: "Project title 2",
+    title: "Prediksi Kapasitas Pasokan Hasil Laut Nasional untuk Mendukung Program Makan Bergizi Gratis",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    description: `Integrated and standardized provincial marine capture fisheries data (2017–2024) and conducted EDA to analyze production trends and regional disparities.\nApplied K-Means clustering (Silhouette Score validated) to classify provinces into surplus and deficit groups, identifying distribution and logistics gaps.`,
+    techstack: "Python, Pandas, Numpy, Scikit-Learn",
+    previewLink: "https://www.linkedin.com/in/hamud-abdul-aziz/details/projects/1770828119826/single-media-viewer/?profileId=ACoAAEI-_GoB3ypXCZMHxvemZ_uG_406-ucJnNI",
     githubLink: "https://github.com",
+    type: "report"
   },
   {
-    title: "Project title 3",
+    title: "Analisis Sentimen Ulasan Aplikasi Halodoc Menggunakan Model Convolutional Neural Network (CNN) dengan Metode Lexicon-Based Labeling",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
+    description: `Collected 10,000 Halodoc user reviews from Google Play Store (7,332 unique after deduplication) and performed Indonesian NLP preprocessing (cleaning, normalization, tokenization, stopword removal, stemming with Sastrawi).`,
+    techstack: "Python, Pandas, Numpy, Scikit-Learn",
+    previewLink: "https://www.linkedin.com/in/hamud-abdul-aziz/details/projects/1015323141/multiple-media-viewer/?profileId=ACoAAEI-_GoB3ypXCZMHxvemZ_uG_406-ucJnNI&treasuryMediaId=1753361980149",
     githubLink: "https://github.com",
+    type: "report"
   },
   {
     title: "Project title 4",
@@ -147,6 +140,7 @@ project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
+    type: "web"
   },
   {
     title: "Project title 5",
@@ -156,6 +150,7 @@ project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
+    type: "report"
   },
   {
     title: "Project title 6",
@@ -165,11 +160,12 @@ project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
+    type: "web"
   },
 ];
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "abdulaziz@gmail.com",
+  phone: "+62 897 8336 432",
 };
