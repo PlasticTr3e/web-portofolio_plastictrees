@@ -60,7 +60,7 @@ function Home() {
             ref={myimageref}
             className="relative w-64 md:w-80 lg:w-96 aspect-square object-cover rounded-2xl border-2 border-dark-heading dark:border-light-heading p-2 grayscale hover:grayscale-0 transition-all duration-500"
             src={img}
-            alt="Hamud Abdul Aziz"
+            alt="Bagas Diatama Wardoyo"
           />
         </div>
       </div>
